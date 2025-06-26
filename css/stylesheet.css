@@ -1,15 +1,20 @@
- .navbar {
- 	background: #032347;
- }
+ 
+.text-theamcolor{
+color: tomato;
+}
 
- .center {
- 	text-align: center;
- }
 
- .orange {
- 	color: tomato;
- }
+.hero-container{
+	background-color: rgb(241, 241, 241);
+	padding: 200px;
+	text-align: center;
+}
 
-.white{
-	color: #fff;
+
+.center{
+text-align: center;
+}
+
+.card-title{
+text-align: center;
 }
