@@ -2,14 +2,14 @@
 .text-theamcolor{
 color: tomato;
 }
-
-
+.text-whitecolor{
+color: rgb(255, 255, 255);
+}
 .hero-container{
 	background-color: rgb(241, 241, 241);
 	padding: 200px;
 	text-align: center;
 }
-
 
 .center{
 text-align: center;
@@ -18,3 +18,80 @@ text-align: center;
 .card-title{
 text-align: center;
 }
+.card-text{
+text-align: center;
+font-weight: bold;
+}
+.card-textcolor{
+	color: #4a63ec;
+	text-align: center;
+}
+
+.line:first-child::before {
+   content: "";
+    position: absolute;
+    background-color: #a5c4f1;
+    bottom: -8px;
+    right: -1px;
+    width: calc(100% + 2px);
+    height: 8px;
+    border-radius: 0 0 0 0;
+}
+
+
+
+    .counter-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      margin: 30px 50px;
+    }
+     
+    .counter {
+      font-size: 60px;
+      margin-top: 10px;
+	  
+    }
+	.countertxt {
+      font-size: 60px;
+      margin-top: -92px;
+	  margin-left:132px;
+    }
+     
+    @media (max-width: 580px) {
+      body {
+        flex-direction: column;
+      }
+    }
+
+		.box{
+		padding-top:50px;
+		margin:0 auto;
+		background-image: linear-gradient(#041936, #000000);
+		height:350px;
+		width:100%;
+		display:flex;
+		justify-content: space-between;
+	}
+	.box .item{
+		height:200px;
+		width:24%;
+		/* background-color:brown; */
+		text-align: center;
+		border-right:1px solid white;
+		position:relative;
+	}
+	.box .item:last-of-type{
+		border:none;
+	}
+	.box .item h1{
+		font-size: 65px;
+    margin-top: -87px;
+    color: white;
+	}
+	.box .item h2{
+		font-size:25px;
+		margin-top:-70px;
+		color:white;
+	}
